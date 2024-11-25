@@ -1,0 +1,15 @@
+buy_box_gcp_1:
+  outputs:
+    dev:
+      dataset: wellbefore
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: C:/Users/SAILS-DM204/OneDrive - Sails Software Solutions Pvt Ltd/Desktop/Junk
+        Folder/DBT/dbt-437212-4031e98ab84c.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: dbt-437212
+      threads: 1
+      type: bigquery
+  target: dev

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name : dbt-437212
+    schema : wellbefore
+    tables:
+      - name: BB 
+        identifier: BuyBox_raw_ds_first20_entries
+
+      - name: all_columns
+        identifier: dim_all_columns
